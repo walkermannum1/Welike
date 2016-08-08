@@ -9,8 +9,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
+import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
+    private ImageButton mTabWeixin;
+    private ImageButton mTabFriend;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
